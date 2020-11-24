@@ -4,7 +4,7 @@
   "description": "JavaScript Object Oriented Constructor Functions Lab for Learn.co",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha --timeout 20000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,8 @@
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "^1.0.1",
     "sinon": "^7.3.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
   }
 }
